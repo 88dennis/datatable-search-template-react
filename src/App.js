@@ -8,7 +8,6 @@ import Home from './components/Home'
 
 function App() {
   return (
-
     <Router basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route path="/" component={Home} exact />
