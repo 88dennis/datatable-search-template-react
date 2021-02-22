@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6aab809c6ee9325706d9b1752a34eda",
+    "revision": "906b4adf6c5afbcbdf1ed4df1759947c",
     "url": "/datatable-search-template-react/index.html"
   },
   {
-    "revision": "f37c09a30e154ed77e81",
+    "revision": "2c683f8824f8d903e13a",
     "url": "/datatable-search-template-react/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/datatable-search-template-react/static/js/2.8990f646.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f37c09a30e154ed77e81",
-    "url": "/datatable-search-template-react/static/js/main.905a5d1e.chunk.js"
+    "revision": "2c683f8824f8d903e13a",
+    "url": "/datatable-search-template-react/static/js/main.bd762930.chunk.js"
   },
   {
     "revision": "777e1ea9e7ac608d3410",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/datatable-search-template-react/precache-manifest.eb5d4b6978f5975697b0cd4e443e3f14.js"
+  "/datatable-search-template-react/precache-manifest.6f80bf7eb0b36f20445d3989f769808e.js"
 );
 
 self.addEventListener('message', (event) => {

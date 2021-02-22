@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/datatable-search-template-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/datatable-search-template-react/static/js/main.905a5d1e.chunk.js",
-    "main.js.map": "/datatable-search-template-react/static/js/main.905a5d1e.chunk.js.map",
+    "main.js": "/datatable-search-template-react/static/js/main.bd762930.chunk.js",
+    "main.js.map": "/datatable-search-template-react/static/js/main.bd762930.chunk.js.map",
     "runtime-main.js": "/datatable-search-template-react/static/js/runtime-main.2e72f6a9.js",
     "runtime-main.js.map": "/datatable-search-template-react/static/js/runtime-main.2e72f6a9.js.map",
     "static/js/2.8990f646.chunk.js": "/datatable-search-template-react/static/js/2.8990f646.chunk.js",
     "static/js/2.8990f646.chunk.js.map": "/datatable-search-template-react/static/js/2.8990f646.chunk.js.map",
     "index.html": "/datatable-search-template-react/index.html",
-    "precache-manifest.eb5d4b6978f5975697b0cd4e443e3f14.js": "/datatable-search-template-react/precache-manifest.eb5d4b6978f5975697b0cd4e443e3f14.js",
+    "precache-manifest.6f80bf7eb0b36f20445d3989f769808e.js": "/datatable-search-template-react/precache-manifest.6f80bf7eb0b36f20445d3989f769808e.js",
     "service-worker.js": "/datatable-search-template-react/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/datatable-search-template-react/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.8990f646.chunk.js.LICENSE.txt": "/datatable-search-template-react/static/js/2.8990f646.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2e72f6a9.js",
     "static/js/2.8990f646.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.905a5d1e.chunk.js"
+    "static/js/main.bd762930.chunk.js"
   ]
 }
