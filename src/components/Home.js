@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import DataTable from "./DataTable";
-
+import dataJson from '../datatable/index';
 // let isMounted = false;
 const Home = () => {
   const [data, setData] = useState([]);
@@ -9,15 +9,18 @@ const Home = () => {
 
   const [query, setQuery] = useState("");
 
-  const fetchData = async () => {
-    return await fetch("/data.json")
-      .then((response) => response.json())
-      .then((json) => {
-        setData(json);
-      });
-  };
+  // const fetchData = async () => {
+
+  //   return await fetch("/data.json")
+  //     .then((response) => response.json())
+  //     .then((json) => {
+  //       setData(json);
+  //     });
+  // };
   useEffect(() => {
-    fetchData();
+    // fetchData();
+    setData(dataJson);
+
   }, [query, searchColumns]);
 
 
