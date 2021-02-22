@@ -19,7 +19,13 @@ const columns = data[0] && Object.keys(data[0])
                     {data.map((row, index)=> <tr key={index}>
                         {
                             // columns.map(column => <td>{JSON.stringify(row[column])}</td>)
-                            columns.map((column, index) => <td key={index}>{row[column]}</td>)
+                            columns.map((column, index) => {
+                            if(column === "borrowerEmail") {
+                                return   <td key={index}><a href="#">{row[column]}</a></td> 
+                            }
+                            return <td key={index}>{row[column]}</td> 
+                           
+                        })
 
                             }
                         </tr>)}
