@@ -19,6 +19,26 @@ const Home = () => {
   // };
   useEffect(() => {
     // fetchData();
+
+    //UPDATE THE OBJECT IF YOU WANT TO ADD MORE PROPERTIES
+    // let newObj = dataJson;
+    // newObj.map((eachItem)=> {
+    // eachItem.product = "deo";
+    // eachItem.category = "shampoo";
+    // return newObj;
+    //   })
+    //   setData(newObj);
+
+
+  //REFACTORED:
+  let counter = 0;
+    dataJson && dataJson.map((eachItem)=> {
+
+      counter = counter + 1
+      return (
+        eachItem.product = "deo"+ counter, eachItem.category = "shampoo"+counter
+        )
+    })
     setData(dataJson);
 
   }, [query, searchColumns]);
